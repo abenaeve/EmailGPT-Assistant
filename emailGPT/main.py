@@ -32,7 +32,7 @@ generated_email = response.choices[0].text.strip()
 
 # Set up email details
 email_sender = 'evelyn@vela.partners'
-email_password = 'ahmg eicu fokg utwk'
+email_password = ''
 email_receiver = 'barnes@vela.partners'
 email_subject = "Weekly Plan Submission"  
 email_signature = '''
