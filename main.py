@@ -51,7 +51,7 @@ def assistant_api(request):
         # Set up email details
         email_sender = 'evelyn@vela.partners'
         email_receiver = data.get('email', '')
-        email_subject = "Weekly Plan Submission" 
+        email_subject = data.get('subject', '')
         email_signature = '''
         Evelyn Kumsah
         Chief of Staff
