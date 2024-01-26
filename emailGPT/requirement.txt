@@ -1,4 +1,0 @@
-- openai
-- email account
-- email password
-- email receiptient

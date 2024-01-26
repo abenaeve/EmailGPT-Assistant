@@ -1,0 +1,5 @@
+python-dotenv
+openai
+flask_cors
+flask
+functions-framework>=3.4.0
