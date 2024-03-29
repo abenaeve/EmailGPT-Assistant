@@ -49,13 +49,10 @@ def assistant_api(request):
         generated_email = response.choices[0].message.content
 
         # Set up email details
-        email_sender = 'evelyn@vela.partners'
+        email_sender = ''
         email_receiver = data.get('email', '')
         email_subject = data.get('subject', '')
-        email_signature = '''
-        Evelyn Kumsah
-        Chief of Staff
-        Vela Partners'''
+        email_signature = ""
         generated_email += email_signature
                         
 
